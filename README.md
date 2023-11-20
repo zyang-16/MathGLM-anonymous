@@ -22,12 +22,11 @@ For math word problem tasks, we leverage different backbone models to tune our M
 # Setup
 
 ### Environment
-Our MathGLM relies on sat(SwissArmyTransformer), please ``` pip install SwissArmyTransformer ```.
+Our MathGLM relies on sat (SwissArmyTransformer), please ``` pip install SwissArmyTransformer ```.
 
 Download the repo and setup the environment with:
 
 ```bash
-git clone https://github.com/THUDM/MathGLM.git
 cd MathGLM
 conda env create -f env.yml
 conda activate mathglm
