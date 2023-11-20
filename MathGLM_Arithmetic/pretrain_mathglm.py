@@ -1,12 +1,3 @@
-# -*- encoding: utf-8 -*-
-'''
-@File    :   pretrain_gpt2.py
-@Time    :   2021/10/06 00:58:32
-@Author  :   Ming Ding 
-@Contact :   dm18@mails.tsinghua.edu.cn
-'''
-
-# here put the import lib
 import os
 import sys
 import math
