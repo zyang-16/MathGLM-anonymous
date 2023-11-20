@@ -39,7 +39,7 @@ For arithmetic tasks and MathGLM-10B: deepspeed==0.6.0; For math word problems o
 
 ### Dataset
 
-For arithmetic tasks, please download pre-training dataset from MathGLM-dataset-arithmetic. For amth word problem, the reconstructed Ape210K dataset is provided in ```MathGLM_MWP/dataset/data.jsonl```
+For arithmetic tasks, please download pre-training dataset from MathGLM-dataset-arithmetic. For math word problem, the reconstructed Ape210K dataset is provided in ```MathGLM_MWP/dataset/data.jsonl```
 
 
 ## Inference 
