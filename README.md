@@ -7,41 +7,16 @@ test set.
 
 
 
-If you want to find the detailed introduction, Read our paper: [GPT Can Solve Mathematical Problems Without a Calculator](https://arxiv.org/pdf/2309.03241v2.pdf).
-
-# Demo
-
-## Arithmetic Tasks
-
-
-
-## Math Word Problem
-
-You can access the MathGLM-10B demo by visiting the [ModelScope](https://www.modelscope.cn/studios/ZhipuAI/MathGLM-demo/summary)
-
 # Model Download 
 
 
 ## Arithmetic Tasks
 For arithmetic tasks, we provide various model sizes for our MathGLM. If you wish to use our MathGLM for inference, you can download it from the following links.                                                                                                                    
-| Model    | Download | 
-| --------- | --------------- |
-| MathGLM-10M   |  [THU-Cloud](https://cloud.tsinghua.edu.cn/d/16a914d6db2a4b8f80f5/)          | 
-| MathGLM-100M  |  [THU-Cloud](https://cloud.tsinghua.edu.cn/d/a6ca369a212c4df08359/)          | 
-| MathGLM-500M  |  [THU-Cloud](https://cloud.tsinghua.edu.cn/d/c80046ec7e234be4831b/)          | 
-| MathGLM-2B    |  [THU-Cloud](https://cloud.tsinghua.edu.cn/d/cf429216289948d889a6/)          | 
+
 
 
 ## Math Word Problem
 For math word problem tasks, we leverage different backbone models to tune our MathGLM on the reconstructed Ape210K dataset. Here, we provide various model sizes for our MathGLM. If you wish to use our MathGLM for inference, you can download it from the following links.                                                                                                                    
-
-
-| Model   | Backbone Model | Model Size | Download | 
-| --------- | ---------- | ---------------- |---------------- |
-| MathGLM-Large       | GLM-Large    |335M   | [THU-Cloud](https://cloud.tsinghua.edu.cn/d/3d138deaf93441b196fb/)         | 
-| MathGLM-10B         | GLM-zh-10b   | 10B   | [THU-Cloud](https://cloud.tsinghua.edu.cn/d/bc3c7b5c46304c2b88f6/) [ModelScope](https://modelscope.cn/models/ZhipuAI/MathGLM/summary)        | 
-| MathGLM-ChatGLM-6B  | ChatGLM-6B   | 6B    | [THU-Cloud](https://cloud.tsinghua.edu.cn/d/92127e3a1b4144db8d13/)         | 
-| MathGLM-ChatGLM2-6B | ChatGLM2-6B  | 6B    | [THU-Cloud](https://cloud.tsinghua.edu.cn/d/ab7eaac27ebd4d088834/)         | 
 
 
 # Setup
@@ -123,16 +98,4 @@ For math word problem, run command:
 ```bash
 cd MathGLM_MWP
 ./continue.sh
-```
-
-
-## Citation
-
-```
-@article{yang2023gpt,
-  title={GPT Can Solve Mathematical Problems Without a Calculator},
-  author={Yang, Zhen and Ding, Ming and Lv, Qingsong and Jiang, Zhihuan and He, Zehai and Guo, Yuyi and Bai, Jinfeng and Tang, Jie},
-  journal={arXiv preprint arXiv:2309.03241},
-  year={2023}
-}
 ```
