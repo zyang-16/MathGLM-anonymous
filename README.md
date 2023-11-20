@@ -26,8 +26,7 @@ Our MathGLM relies on sat (SwissArmyTransformer), please ``` pip install SwissAr
 
 Download the repo and setup the environment with:
 
-```bash
-cd MathGLM
+```
 conda env create -f env.yml
 conda activate mathglm
 ```
